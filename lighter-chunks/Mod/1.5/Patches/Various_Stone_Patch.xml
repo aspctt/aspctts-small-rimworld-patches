@@ -21,7 +21,7 @@
 			<Mass>4.4</Mass>
 		</value>
 	</Operation>
-	<!-- Slate chunk 18 to 4 -->
+	<!-- Slate chunk 18 to 3.6 -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="ChunkSlate"]/statBases/Mass</xpath>
 		<value>

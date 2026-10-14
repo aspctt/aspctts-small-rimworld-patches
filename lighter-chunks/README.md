@@ -1,8 +1,8 @@
 # <p align=center style="text-align: center;"> Lighter Chunks </p>
 
 <p align="center" style="text-align: center;">
-	<img alt="Version" src="https://img.shields.io/badge/Version-1.3.0-orange">
-	<img alt="Available for" src="https://img.shields.io/badge/Available_for-1.5_|_1.6-blue">
+	<img alt="Version" src="https://img.shields.io/badge/Version-1.4.0-orange">
+	<img alt="Available for" src="https://img.shields.io/badge/Available_for-1.5_|_1.6_|_1.7-blue">
 	<img alt="License" src="https://img.shields.io/badge/License-GPL--3.0--or--later-red">
 </p>
 
@@ -24,7 +24,7 @@ Divides the mass of every stone chunk by five, so they stop eating up caravan an
 * **Limestone** - 22 kg to 4.4 kg
 * **Slate** - 18 kg to 3.6 kg
 * **Marble** - 25 kg to 5 kg
-* **Vacstone** - 18 kg to 3.6 kg, with Odyssey on RimWorld 1.6
+* **Vacstone** - 18 kg to 3.6 kg, with Odyssey
 
 ## Installation
 

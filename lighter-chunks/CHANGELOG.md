@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.0] - 2026-10-14
+
+### Added
+
+- RimWorld 1.7 support
+
 ## [1.3.0] - 2026-01-27
 
 ### Added
@@ -29,7 +35,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 First release.
 
-[Unreleased]: https://github.com/aspctt/aspctts-small-rimworld-patches/compare/lighter-chunks-1.3.0...HEAD
+[Unreleased]: https://github.com/aspctt/aspctts-small-rimworld-patches/compare/lighter-chunks-1.4.0...HEAD
+[1.4.0]: https://github.com/aspctt/aspctts-small-rimworld-patches/compare/lighter-chunks-1.3.0...lighter-chunks-1.4.0
 [1.3.0]: https://github.com/aspctt/aspctts-small-rimworld-patches/tree/lighter-chunks-1.3.0/lighter-chunks
 [1.2.0]: https://steamcommunity.com/sharedfiles/filedetails/changelog/3650156682
 [1.1.0]: https://steamcommunity.com/sharedfiles/filedetails/changelog/3650156682

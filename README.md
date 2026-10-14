@@ -1,6 +1,7 @@
 # <p align=center style="text-align: center;"> aspctt's Small RimWorld Patches </p>
 
 <p align="center" style="text-align: center;">
+	<img alt="Available for" src="https://img.shields.io/badge/Available_for-1.6_|_1.7-blue">
 	<img alt="License" src="https://img.shields.io/badge/License-GPL--3.0--or--later-red">
 </p>
 

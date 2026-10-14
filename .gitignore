@@ -2,10 +2,11 @@
 # aspctt's Small RimWorld Patches - .gitignore for a set of RimWorld XML mods
 ###############################################################################
 
-## Release archives
-# Built by zipping a mod's Mod folder for a release, into its own Releases
-# folder. Regenerated on demand, so there is no reason to carry them in history
-# where they would bloat every clone.
+## Release builds
+# Each mod's Release folder holds a copy of its Mod folder plus the readme,
+# changelog, license and notice, ready to upload to the Steam Workshop.
+# Regenerated on demand, so there is no reason to carry it, or any archive made
+# from it, in history where it would bloat every clone.
 *.zip
 *.7z
 *.rar
