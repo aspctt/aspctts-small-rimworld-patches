@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Power Poles Extended - Rebalance</name>
+	<author>aspctt</author>
+	<modVersion>1.2</modVersion>
+	<packageId>aspctt.ppextendrebalance</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>Rebalance the electricity usage of the power poles.</description>
+	<modDependencies>
+		<li>
+			<packageId>gy.ppextend</packageId>
+			<displayName>Power Poles Extended</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3339142899</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>gy.ppextend</li>
+	</loadAfter>
+</ModMetaData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Reduce mood effect -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThoughtDef[defName="SoldMyLovedOne"]/stages/li/baseMoodEffect</xpath>
+		<value>
+			<baseMoodEffect>-2</baseMoodEffect>
+		</value>
+	</Operation>
+	<!-- Reduce opinion effect -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThoughtDef[defName="SoldMyLovedOne"]/stages/li/baseOpinionOffset</xpath>
+		<value>
+			<baseOpinionOffset>-2</baseOpinionOffset>
+		</value>
+	</Operation>
+	<!-- Reduce duration -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThoughtDef[defName="SoldMyLovedOne"]/durationDays</xpath>
+		<value>
+			<durationDays>15</durationDays>
+		</value>
+	</Operation>
+	<!-- Reduce stack limit -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThoughtDef[defName="SoldMyLovedOne"]/stackLimit</xpath>
+		<value>
+			<stackLimit>2</stackLimit>
+		</value>
+	</Operation>
+</Patch>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Metal Power Pole /w Lamp -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="PP_MPowerPoleLamp"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
+		<value>
+			<basePowerConsumption>30</basePowerConsumption>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="PP_MPowerPoleLamp"]/comps/li[@Class="CompProperties_Glower"]/glowRadius</xpath>
+		<value>
+			<glowRadius>13</glowRadius>
+		</value>
+	</Operation>
+	<!-- Wooden Power Pole /w Lamp -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="PP_PowerPoleLamp"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
+		<value>
+			<basePowerConsumption>30</basePowerConsumption>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="PP_PowerPoleLamp"]/comps/li[@Class="CompProperties_Glower"]/glowRadius</xpath>
+		<value>
+			<glowRadius>13</glowRadius>
+		</value>
+	</Operation>
+</Patch>

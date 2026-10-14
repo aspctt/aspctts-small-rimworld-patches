@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Sandstone chunk 20 to 4 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="ChunkSandstone"]/statBases/Mass</xpath>
+		<value>
+			<Mass>4</Mass>
+		</value>
+	</Operation>
+	<!-- Granite chunk 25 to 5 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="ChunkGranite"]/statBases/Mass</xpath>
+		<value>
+			<Mass>5</Mass>
+		</value>
+	</Operation>
+	<!-- Limestone chunk 22 to 4.4 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="ChunkLimestone"]/statBases/Mass</xpath>
+		<value>
+			<Mass>4.4</Mass>
+		</value>
+	</Operation>
+	<!-- Slate chunk 18 to 4 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="ChunkSlate"]/statBases/Mass</xpath>
+		<value>
+			<Mass>3.6</Mass>
+		</value>
+	</Operation>
+	<!-- Marble chunk 25 to 5 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="ChunkMarble"]/statBases/Mass</xpath>
+		<value>
+			<Mass>5</Mass>
+		</value>
+	</Operation>
+	<!-- Vacstone chunk 18 to 3.6 -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Odyssey</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="ChunkVacstone"]/statBases/Mass</xpath>
+			<value>
+				<Mass>3.6</Mass>
+			</value>
+		</match>
+	</Operation>
+</Patch>
